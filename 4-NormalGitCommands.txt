@@ -1,0 +1,26 @@
+// to check our log dates and number of time we log /////////////////////////////////
+// Number of time we commit
+
+git log
+
+******type q to quit/exit or to write the next command
+
+// To check the main head account ///////////////////////////////////////////
+git show HEAD
+
+// to check the status what is commited and what is not???/////////////////////////
+git status
+
+// to check what is deleted file and included file and null file ////////////////////////////
+git diff
+
+// making working directory same  last commit//////////////////////////////////////////////
+git checkout HEAD fileName
+
+----in filename write actual filename
+
+//making staging as last commit /////////////////////////////////////////////
+git reset HEAD filename
+
+// to reset any filename //////////////////////////
+git reset 49f862a

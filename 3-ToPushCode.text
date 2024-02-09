@@ -1,0 +1,8 @@
+// to push the code on git
+
+git init
+git add .
+git commit -m "Any comment" 
+git push
+
+
