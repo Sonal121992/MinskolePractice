@@ -25,8 +25,13 @@ git checkout HEAD fileName =====> local repo se working directory me aana hai me
 //making staging as last commit /////////////////////////////////////////////
 git reset HEAD filename ====> yaha humne wd me likh liya add bhi kiya fir laga ki problem hai to push ke pahale hummme diff ko nikalna hai and staging par wapas jan hai
 
+=====> ye command git add .  ke baad agar lagta hai prblem hai to use karate hai unstage karne ke liye
+=====> git status me pata chahlega changes
+=====> git init ke baad status check then add ke baad status check
+=====> then reset then status check....ye reset se WD me fir se code chala jayega
+
 // to reset any filename //////////////////////////
 git reset 49f862a ===> ye jo code hai wo commit ke first 7 character hai 
 
 ====> commit kiya fir laga nai problem hai to
-====> git status me jao waha se commit code ke 1st 7 character lo and then git reset chalao
+====> git log me jao waha se commit code ke 1st 7 character lo and then git reset chalao
