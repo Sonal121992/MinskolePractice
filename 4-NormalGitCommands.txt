@@ -1,26 +1,31 @@
 // to check our log dates and number of time we log /////////////////////////////////
 // Number of time we commit
 
-git log
+git log ====> Total number of commit
 
 ******type q to quit/exit or to write the next command
 
 // To check the main head account ///////////////////////////////////////////
-git show HEAD
+git show HEAD ===> show latest commit
 
 // to check the status what is commited and what is not???/////////////////////////
-git status
+git status ====> show status whether the file is pushed or not if red the file is not pushed
 
 // to check what is deleted file and included file and null file ////////////////////////////
-git diff
+git diff ===> working and staging me difference
 
 // making working directory same  last commit//////////////////////////////////////////////
-git checkout HEAD fileName
+git checkout HEAD fileName =====> local repo se working directory me aana hai means last jo bhi work kiya hai wo delete ho jaega WD se
+
+=======> filename me actual name aayega
 
 ----in filename write actual filename
 
 //making staging as last commit /////////////////////////////////////////////
-git reset HEAD filename
+git reset HEAD filename ====> yaha humne wd me likh liya add bhi kiya fir laga ki problem hai to push ke pahale hummme diff ko nikalna hai and staging par wapas jan hai
 
 // to reset any filename //////////////////////////
-git reset 49f862a
+git reset 49f862a ===> ye jo code hai wo commit ke first 7 character hai 
+
+====> commit kiya fir laga nai problem hai to
+====> git status me jao waha se commit code ke 1st 7 character lo and then git reset chalao
