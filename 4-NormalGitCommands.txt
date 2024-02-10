@@ -18,6 +18,7 @@ git diff ===> working and staging me difference
 git checkout HEAD fileName =====> local repo se working directory me aana hai means last jo bhi work kiya hai wo delete ho jaega WD se
 
 =======> filename me actual name aayega
+=====> git init karne ke baad hume agar last updated code ko delete karna hai to upper wala command use karate hai
 
 ----in filename write actual filename
 
