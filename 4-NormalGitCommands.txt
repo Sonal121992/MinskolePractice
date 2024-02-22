@@ -35,3 +35,7 @@ git reset 49f862a ===> ye jo code hai wo commit ke first 7 character hai
 
 ====> commit kiya fir laga nai problem hai to
 ====> git log me jao waha se commit code ke 1st 7 character lo and then git reset chalao
+
+// stages
+
+// Working directory (WD) ====> Staging ====> Local repo ====> Remote Repo

@@ -1,0 +1,27 @@
+1. Git hub sign up
+2. Enter Email ====> press continue
+3. Enter Password
+4. y
+5. Create
+6. Verify
+7. Solve puzzle
+8. Create Account
+9. Enter Password
+10. Username
+11. Continue
+12. Enter OTP code from email-ID
+13. Select Just me
+14. (don't select anything) continue
+****** always remember Username, Email and Password ******** (will be use while pushing code)
+
+Git Download for Window
+1. Git Download
+2. For Window
+3. 64 bit
+4. Double Click
+5. Next, Next, Next, Next, Next, Next (No change anywhere)
+6. Install
+7. After done with installation
+8. open cmd
+9. git --version 
+10. you will get the ans what version you have install like "git version 2.42.0 window2

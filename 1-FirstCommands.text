@@ -20,8 +20,8 @@ Create a  folder with visual studio code
 add a file and add the code
 
 // First two commands to execute only one
-Set your username: git config --global user.name "username"
-Set your email address: git config --global user.email "useremail@gmail.com"
+Set your username: git config --global user.name "Sonal121992"
+Set your email address: git config --global user.email "sonalkhante21@gmail.com"
 
 git init
 git add .
@@ -34,4 +34,12 @@ git push -u origin main
 // one time username and wil be asked
 
 
+// commands when we create new repository contains
+echo "# AjaxMinskole" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Sonal121992/AjaxMinskole.git
+git push -u origin main
 

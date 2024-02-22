@@ -1,0 +1,24 @@
+                                Tixdo Company
+                            10 line script/code
+                            (This is remote Repo)
+                            (It have Main Repo)
+ ______________________________________|_________________________________________
+ |                                      |                                        |
+ A                                      B                                        C
+(Local Repo)                        (Local Repo)                               (Local Repo)
+(coding for gmail login)           (coding for fb login)                      (coding for application login)
+
+1. A, B, and C  separetely will pull the code form main branch of Company
+2. A, B and C wil separately perform there coddig
+3. Now A have finished coding with 5 lines code
+4. So now A will make it own branch and will push the code that branch called "Local Repo"
+5. With this A will raise the PR, that is push request
+6. If the code is fine and once the code is reviewd then it will be in the "Remote Repo"
+7. And with this code will be in the "Main Branch" too. 
+8. So now code is of 15 lines
+9. Now if anyone wants to make changes then pull the code from main branch
+10. As soon the code is updated in main branch the side branch will be removed because they are of no use now
+
+
+
+ 
