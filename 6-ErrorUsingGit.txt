@@ -1,0 +1,10 @@
+Error
+
+1. Error while pushing code
+
+1 .. Agar ekhad baar kisi aur system se code push kar diya
+    Ab wo code humare system me jo hamesha use karate ussme to save nai hai
+    git pull karake kuch error dega
+    So, write git pull in terminal
+    esse github parka code humare sys par pull hoga....jiske karan github and humara code same same ho jaega
+    abhi hum git init karake git push kar sakte hai
