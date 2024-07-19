@@ -27,6 +27,10 @@ git init
 git add .
 git commit -m "login"
 
+// If want to add some selected file they write
+git add filename.ext 
+git commit filename.ext -m "login"
+
 // Sign in to your git hub , Create new repo and run last 3 commands
 git branch -M main
 git remote add origin https://github.com/minskolecourse/python.git

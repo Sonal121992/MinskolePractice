@@ -1,0 +1,76 @@
+Git Details
+
+1. The things we are doing on Git is called "Devops"
+2. Git have 4 stages
+3. A file from our computer to cloud goes through 4 stages  
+        a) Working directory
+        b) Staging
+        c) Local repository
+        d) cloud or github
+    
+4. Working directory is the place were we work our file our computer
+5. Ye hume cloud par dalna hai jo github hai.
+6. Staging and Local Repository ye dono hiddden files hai
+7. To start the git process ==> git init
+7. WD se staging ke liye ==> git add . 
+8. staging se Local Repository ke liye ===> git commit -m "added files"
+9. Local Repository se GitHub ke liye ===> git push
+
+a) git init 
+    i) Process start karne ke liye
+
+b) git add . or git add filename
+    i) To add files to the staging
+    ii) git add . ===> to add all files to the staging
+    iii) git add filename ===> to add specific file to staging
+
+c) git commit -m "added files"
+    i) to transfer files to local repository
+
+d) git push
+    i) to transfer files to cloud/github
+
+e) git status
+    i) Agar ye command git init ke pahale likha to nai chalega..error aayega
+    ii) lekin git init ke baad git status likha to kuch dikhayega jaise untracked files jo red color me hoga
+    iii) abhi git add . ya git add filename ===> ye likhne par file staging par add hoga
+    iv) abhi jo red me files the wo green me ho jaege ==> means file abhi track ho rai hai
+    v) Now git commit -m "files added" ===> abhi staging se local repo par daal rai hai
+    vi) abhi modified hua hoga to likhke aayega agar git add . ke baad kuch change kiya to git add. use karenge
+    vii) fir git commi -m "added files" ==> abhi fir file wagare add karenge ==> abhi srf ek file daalna hai to git add filename karke add karenge
+
+f) git log
+    i) yaha samjega ki kite baar commit kiya hai 
+    ii) exist ke liye "q" use karenge
+
+g) git show HEAD
+    i) yaha latest commit dikhayega
+    ii) abhi hume file me kuch change kiya
+
+h) git diff
+    i) eise samjega kya change hua hai working directory me liye
+
+I) git diff filename
+    i) agar srf ek file me changes dekhene hai to ye command use karenge
+
+j) git command for different scenarios
+    a) Scenario 1
+       working directory --- same as last commit
+
+       command ====>
+
+            git checkout HEAD 
+        
+            W.D. ===> staging ===> local repo ===> cloud
+            10+5 ===>   10+5  ===>  10 ==========> 10
+
+        i) yaha hume git init kar diya then git add . bhi kar diya
+        ii) code humara staging par chala gaya
+        iii) par abhi tak local repo par nai gaya
+        iv) Jaise last commit tha means local repo par tha waise hi W.D. par karna hai,
+                means jo bhi W.D. me add kiya hai usse hatana hai
+
+
+
+    
+
