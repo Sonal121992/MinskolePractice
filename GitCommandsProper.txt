@@ -59,8 +59,11 @@ j) git command for different scenarios
 
        command ====>
 
-            git checkout HEAD 
-        
+            git checkout HEAD filename
+
+            HEAD ==> means last jo commit hai 
+            filename jo bhi hai wo
+
             W.D. ===> staging ===> local repo ===> cloud
             10+5 ===>   10+5  ===>  10 ==========> 10
 
@@ -69,6 +72,34 @@ j) git command for different scenarios
         iii) par abhi tak local repo par nai gaya
         iv) Jaise last commit tha means local repo par tha waise hi W.D. par karna hai,
                 means jo bhi W.D. me add kiya hai usse hatana hai
+        v) to command hai ===> git checkout HEAD filename 
+        vi) filename ke jagah actual filename likho
+        vii) W.D. me se new code delete ho jaega
+
+    b) Scenario 2
+        staging same as last commit
+
+        command ===>
+
+            git reset HEAD filename
+
+            HEAD ==> means last jo commit hai 
+            filename jo bhi hai wo
+
+            W.D. ===> staging ===> local repo ===> cloud
+            10+5 ===>   10+5  ===>  10+5 ==========> 10
+
+        i) yaha git init ===> git add . ===> git commit -m "added files"
+        ii) srf git push karna baki hai
+        iii) hamara code local repo tak aa chuka hai
+        iv) abhi hume code staging tak lana hai
+        v) esilye command hai ===> git reset HEAD filename
+        vi) abhi kuch bhi changes hue to humme dikhega nai esiliye "git diff" use karenge
+        
+
+
+
+
 
 
 
