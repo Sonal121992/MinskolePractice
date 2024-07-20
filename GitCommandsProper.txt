@@ -54,48 +54,81 @@ I) git diff filename
     i) agar srf ek file me changes dekhene hai to ye command use karenge
 
 j) git command for different scenarios
+
     a) Scenario 1
-       working directory --- same as last commit
+        i) working directory –ko ---- same as last commit karna hai
+        ii) command ==> git checkout HEAD filename
+        iii) HEAD ==>  means last jo commit hai 
+        iv) filename ==> jo bhi hai wo likho
+        v) Ye process se humme
+                W.D. ===> staging ===> local repo ===> cloud
+                10+5 ===>   10+5  ===>  10 ==========> 10
+        vi) Ye process se humme
+                W.D. ===> staging ===> local repo ===> cloud
+                10     ===>   10   =====>  10 ==========> 10
+        vii) Start the process with git init
+        viii) Then ==> git add . ==> to put the file in staging
+        ix) Now we don’t want process further with done changes
+        x) Want the W.D. same as before without deleting
+        xi) Write ==> git checkout HEAD filename
+        xii) W.D. will be same as before that new 5 lines added will deleted from W.D.
 
-       command ====>
-
-            git checkout HEAD filename
-
-            HEAD ==> means last jo commit hai 
-            filename jo bhi hai wo
-
-            W.D. ===> staging ===> local repo ===> cloud
-            10+5 ===>   10+5  ===>  10 ==========> 10
-
-        i) yaha hume git init kar diya then git add . bhi kar diya
-        ii) code humara staging par chala gaya
-        iii) par abhi tak local repo par nai gaya
-        iv) Jaise last commit tha means local repo par tha waise hi W.D. par karna hai,
-                means jo bhi W.D. me add kiya hai usse hatana hai
-        v) to command hai ===> git checkout HEAD filename 
-        vi) filename ke jagah actual filename likho
-        vii) W.D. me se new code delete ho jaega
 
     b) Scenario 2
-        staging same as last commit
+        i) staging same as last commit 
+        ii) unstage karna hai
+        iii) command ==> git reset HEAD filename
+        iv) HEAD ==> means last jo commit hai 
+        v) filename ==> jo bhi hai wo likho
+                W.D. ==> staging ==> local repo ==> cloud
+                10+5 ==> 10+5   ====>      10 ====> 10
+        vi) Esse hum niche jaisa karna hai
+                W.D. ==> staging ==> local repo ==> cloud
+                10+5 ==> 10   =====>     10 ======> 10
+        vii) Start the process with git init
+        viii) Then ==> git add . ==> to put the file in staging
+        ix) Now we don’t want process further with done changes
+        x) Want to unstage the process
+        xi) Write  git reset HEAD filename
+        xii) Changes will be still present in W.D. , as we have done staging we want to unstage it.
+        xiii) See the changes with git diff
+        xiv) Will see the green line on the left side of the unstage code.
+        xv) We will get following message on unstage
+                Unstaged changes after reset:
+                M       git3.js
 
-        command ===>
+    c) Scenario 3
+        i) removing the commit to roll back to spect commit
+        ii) uncommit karna hai
+        iii) command  git reset 4586e3d
+        iv) yaha ye code git log karke aaya 
+        v) jo latest wala hai sabse niche uske first 7 letter and number
+        vi) filename  jo bhi hai wo likho
+                W.D. == staging  local repo cloud
+                10+5 == 10+5   = 10+5 ===  10
+        vii) Esse hum niche jaisa karna hai
+                W.D. == staging  local repo cloud
+                10+5 == 10+5 ==      10 ===  10
+        viii) Start the process with git init
+        ix) Then  git add .  git commit -m “added code” to put the file in local repo
+        x) Now we don’t want process further with done changes
+        xi) Want to uncommit the process
+        xii) Write  git reset cf91dab
+        xiii) Changes will be done in commit, we will uncommit the code, uncommit karne par humme niche wala msg aayega
+                Unstaged changes after reset:
+                M       git3.js
 
-            git reset HEAD filename
+K) Branching
+    
+    1) There was already 100 line code on the git hub.
+    2) Rahul have pull the code from git hub and added more 30 lines in that code.
+    3) Now Rahul wants to push that code to git hub.
+    4) Went the Rahul push the code to the git hub.
+    5) Code on git hub becomes of 130 lines.
+    6) Therefore New code from Rahul W.D. will be of no use 
+    7) Even Other 2 peoples pull will be of new use
+    8) All have to pull new code lines from git hub.
 
-            HEAD ==> means last jo commit hai 
-            filename jo bhi hai wo
-
-            W.D. ===> staging ===> local repo ===> cloud
-            10+5 ===>   10+5  ===>  10+5 ==========> 10
-
-        i) yaha git init ===> git add . ===> git commit -m "added files"
-        ii) srf git push karna baki hai
-        iii) hamara code local repo tak aa chuka hai
-        iv) abhi hume code staging tak lana hai
-        v) esilye command hai ===> git reset HEAD filename
-        vi) abhi kuch bhi changes hue to humme dikhega nai esiliye "git diff" use karenge
-        
 
 
 
