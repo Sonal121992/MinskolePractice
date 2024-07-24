@@ -130,6 +130,21 @@ K) Branching
     8) All have to pull new code lines from git hub.
 
 
+1.	There was already 100 line code on the git hub means on remote repo.
+2.	Rahul will pull the code from git hub(remote repo) to his computer(local repo)
+3.	Now he will make a branch in local repo to add more 30 lines in that code.
+4.	Now Rahul wants to push that code to git hub(remote repo) to main branch.
+5.	Remote repo will also make a branch of new code.
+6.	Then Rahul has to raise the PR, where every team member will check the code, it is proper or not.
+7.	When everyone in team pass the PR then, code will get merge in main branch
+8.	Then we will delete the branch on remote repo.
+9.	Now the new code available for everyone is of 130 lines.
+10.	Everyone now will work only on that 130 lines, so they will pull the code once again
+11.	Now Rahul will delete the branch on his local repo and will pull the new code.
+        Git branch ==> Konsi branch suru hai wo dikhega, or kitne branch suru hai wo dikhega, green me jo dikhega wo    woi branch par hum kaam kar rai hai
+        Git branch branchname ==> new branch banana ke liye
+        Git checkout branchname ==> new branch me janne ke liye
+        Normal push ki process karo branch me, then remote repo par ==> new branch git hub par dikhega ==> compare & pull par click karo ==> PR raise karo ==> merge pull request ==> confirm merge ==> fir branch delete
 
 
 
