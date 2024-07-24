@@ -146,6 +146,19 @@ K) Branching
         Git checkout branchname ==> new branch me janne ke liye
         Normal push ki process karo branch me, then remote repo par ==> new branch git hub par dikhega ==> compare & pull par click karo ==> PR raise karo ==> merge pull request ==> confirm merge ==> fir branch delete
 
+for push ===> git push --set-upstream origin git4.js
+
+go on remote repo ===> confirm and Pull request ==> Add Description ==> Create Pull request (git will check the ability) ==> Merge Pull Request ==> Confirm Merge
+
+After the Pull request is successfully merge and closed ==> we can delete the branch (if want) from remote repo
+
+To delete branch from local repo ===>
+
+        
+
+PR ===> Push / Pull Request
+
+
 
 
 
