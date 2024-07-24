@@ -154,6 +154,10 @@ After the Pull request is successfully merge and closed ==> we can delete the br
 
 To delete branch from local repo ===>
 
+git branch -D filename
+
+filename can be anything with or without extension ex: git4 , git4.js
+
         
 
 PR ===> Push / Pull Request
